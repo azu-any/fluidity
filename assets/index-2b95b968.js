@@ -75,14 +75,14 @@ Error generating stack: `+i.message+`
 
   mask-size: cover;
   mask-image: url(${({src:e})=>e});
-`,E2=()=>{const e=Oi.getWithFallback(),t=e.engine||"www.google.com/";
+`,E2=()=>{const e=Oi.getWithFallback(),t=e.engine||"www.google.com/search";
           let n;
           t.includes("duckduckgo")?n=m2:t.includes("google")?n=b2:t.includes("qwant")?n=x2:t.includes("ecosia")&&(n=y2);
           const r=a=>{e.fastForward[a]?window.location.href=e.fastForward[a]:t.includes(Wn)?window.location.href=t.replace(Wn,a):window.location.href="https://"+t+"?q="+a};
           return k.jsxs(
             w2,
             {children:[n&&k.jsx(k2,{src:n}),
-                       k.jsx(S2,{placeholder:"Always stay clean!",
+                       k.jsx(S2,{placeholder:":)",
                                  type:"input",
                                  onKeyUp:a=>a.which===13&&r(a.currentTarget.value),
                                  autoFocus:!0
