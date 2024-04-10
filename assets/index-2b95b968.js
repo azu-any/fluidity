@@ -202,7 +202,7 @@ Error generating stack: `+i.message+`
     {label:"Ecosia",value:`https://ecosia.org/search/?q=${Wn}`}
   ],
   sh={
-    engine:Bm[0].value,fastForward:
+    engine:Bm[1].value,fastForward:
     {
       deepl:"https://deepl.com/",
       maps:"https://google.de/maps/",
