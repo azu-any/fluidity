@@ -313,7 +313,7 @@ Error generating stack: `+i.message+`
      },
   Zs="link-groups",
   Wt={getRaw:()=>localStorage.getItem(Zs),get:()=>{const e=localStorage.getItem(Zs);if(e)return Wt.parse(e)},getWithFallback:()=>{try{return Wt.get()??lh}catch{return console.error("Your currently applied links appear to be corrupted."),lh}},set:e=>localStorage.setItem(Zs,JSON.stringify(e)),parse:e=>JSON.parse(e)},
-  Ai={get:()=>{const e=localStorage.getItem("design");if(e)return Dt.parse(e)},getWithFallback:()=>{try{return Ai.get()??$i[2]}catch{return console.error("Your currently applied design appears to be corrupted."),$i[2]}},set:e=>localStorage.setItem("design",JSON.stringify(e))},_2=D.div`
+  Ai={get:()=>{const e=localStorage.getItem("design");if(e)return Dt.parse(e)},getWithFallback:()=>{try{return Ai.get()??$i[0]}catch{return console.error("Your currently applied design appears to be corrupted."),$i[0]}},set:e=>localStorage.setItem("design",JSON.stringify(e))},_2=D.div`
   
   margin-left: 100px;
   display: flex;
