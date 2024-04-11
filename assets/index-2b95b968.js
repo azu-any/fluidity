@@ -281,6 +281,7 @@ Error generating stack: `+i.message+`
       name:"Azu",
       image: "https://i.imgur.com/gcW1jul.jpeg",
       colors:{"--bg-color":"#24273A","--default-color":"#CAD3F5","--accent-color":"#C6A0F6","--accent-color2":"#8AADF4"}
+    }
   ],
   Oi={
     get:()=>{const e=localStorage.getItem("search-settings");
