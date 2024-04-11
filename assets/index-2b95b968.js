@@ -278,8 +278,13 @@ Error generating stack: `+i.message+`
       colors:{"--bg-color":"#2E2E2E","--default-color":"#E3C9BC","--accent-color":"#91C6CC","--accent-color2":"#F0F8FA"}
     },
     {
-      name:"Azu",
+      name:"China",
       image: "https://i.pinimg.com/originals/f4/fd/80/f4fd80fcb2fc00d0b753aa5af239677d.gif",
+      colors:{"--bg-color":"#24273A","--default-color":"#CAD3F5","--accent-color":"#C6A0F6","--accent-color2":"#8AADF4"}
+    },
+    {
+      name:"Japan",
+      image: "https://cdn.dribbble.com/users/1591951/screenshots/3633215/japan.gif",
       colors:{"--bg-color":"#24273A","--default-color":"#CAD3F5","--accent-color":"#C6A0F6","--accent-color2":"#8AADF4"}
     }
   ],
@@ -314,7 +319,20 @@ Error generating stack: `+i.message+`
      },
   Zs="link-groups",
   Wt={getRaw:()=>localStorage.getItem(Zs),get:()=>{const e=localStorage.getItem(Zs);if(e)return Wt.parse(e)},getWithFallback:()=>{try{return Wt.get()??lh}catch{return console.error("Your currently applied links appear to be corrupted."),lh}},set:e=>localStorage.setItem(Zs,JSON.stringify(e)),parse:e=>JSON.parse(e)},
-  Ai={get:()=>{const e=localStorage.getItem("design");if(e)return Dt.parse(e)},getWithFallback:()=>{try{return Ai.get()??$i[13]}catch{return console.error("Your currently applied design appears to be corrupted."),$i[13]}},set:e=>localStorage.setItem("design",JSON.stringify(e))},_2=D.div`
+  Ai={
+    get:()=>{
+      const e=localStorage.getItem("design");
+      if(e)return Dt.parse(e)
+    },
+    getWithFallback:()=>{
+      try{
+        return Ai.get()??$i[14]
+      }catch{
+        return console.error("Your currently applied design appears to be corrupted."),
+          $i[14]
+      }
+    },
+    set:e=>localStorage.setItem("design",JSON.stringify(e))},_2=D.div`
   
   margin-left: 100px;
   display: flex;
@@ -1299,7 +1317,48 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   > div {
     border: 2px solid var(--default-color);
   }
-`,hI=({colors:e,setColors:t})=>{const[n,r]=B.useState(Object.keys($i[13].colors)[0]),a=i=>{const o={...e};o[n]=i.hex,t(o)};return k.jsxs(fI,{children:[k.jsx("div",{children:Object.keys(e).map(i=>k.jsx(dI,{active:i===n,onClick:()=>r(i),children:i},i))}),k.jsx(pI,{children:k.jsx(WF,{color:e[n],onChange:i=>i&&a(i)})})]})},gI=D.button`
+`,hI=({colors:e,setColors:t})=>{
+  const[n,r]=B.useState(Object.keys($i[14].colors)[0]),
+    a=i=>{const o={...e};o[n]=i.hex,t(o)};
+  
+  return k.jsxs(
+    fI,
+    {
+      children:[
+        k.jsx(
+          "div",
+          {
+            children:Object.keys(e).map
+              (
+                i=>k.jsx(
+                dI,
+                {
+                  active:i===n,
+                  onClick:()=>r(i),
+                  children:i
+                },
+                i
+              )
+            )
+          }
+        ),
+        k.jsx(
+          pI,
+          {
+            children:k.jsx(
+              WF,
+              {
+                color:e[n],
+                onChange:i=>i&&a(i)
+              }
+            )
+          }
+        )
+      ]
+    }
+  )
+},
+  gI=D.button`
   color: ${({inverted:e})=>e?"var(--bg-color)":"var(--default-color)"};
   background-color: transparent;
   min-width: 50px;
