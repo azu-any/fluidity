@@ -279,7 +279,7 @@ Error generating stack: `+i.message+`
     },
     {
       name:"Azu",
-      image:"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a2b08080596159.5cecd303f1e28.gif",
+      image: "https://i.imgur.com/gcW1jul.jpeg",
       colors:{"--bg-color":"#24273A","--default-color":"#CAD3F5","--accent-color":"#C6A0F6","--accent-color2":"#8AADF4"}
   ],
   Oi={
