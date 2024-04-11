@@ -279,7 +279,7 @@ Error generating stack: `+i.message+`
     },
     {
       name:"Azu",
-      image: "https://i.imgur.com/gcW1jul.jpeg",
+      image: "https://i.pinimg.com/originals/f4/fd/80/f4fd80fcb2fc00d0b753aa5af239677d.gif",
       colors:{"--bg-color":"#24273A","--default-color":"#CAD3F5","--accent-color":"#C6A0F6","--accent-color2":"#8AADF4"}
     }
   ],
