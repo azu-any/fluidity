@@ -112,9 +112,9 @@ Error generating stack: `+i.message+`
           {
             label: "GMail",
             value: "https://mail.google.com/mail/u/0/#inbox",
-          },
-        ],
-      },
+          }
+      ]
+    },
     {
       title:"3D Modelling",
       links:[
@@ -177,6 +177,7 @@ Error generating stack: `+i.message+`
           value: "https://www.youtube.com/live/_u36muyjh8A?si=OFc4MCeln9H3TUZ7",
         },
       ],
+    },
     {
       title:"Sauce",
       links:[
