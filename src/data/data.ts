@@ -30,23 +30,23 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Tools",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "YouTube",
+        value: "https://www.youtube.com/",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        label: "Reverso",
+        value: "https://context.reverso.net/traduccion/",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "Google Drive",
+        value: "https://drive.google.com/drive/my-drive",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "GMail",
+        value: "https://mail.google.com/mail/u/0/#inbox",
       },
     ],
   },
@@ -103,32 +103,20 @@ export const links: linkGroup[] = [
     ],
   },
   {
-    title: "Music",
+    title: "Playlists",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        label: "80s Japanese City pop",
+        value: "https://youtu.be/rjwqxhg5-BY?si=yZz_tvSMBH_KlFpw",
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
-      },
-      {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
-      },
-      {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
-      },
-      {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+        label: "Ghibli :3",
+        value: "https://www.youtube.com/live/_u36muyjh8A?si=OFc4MCeln9H3TUZ7",
       },
     ],
   },
   {
-    title: "Sauce",
+    title: "Google",
     links: [
       {
         label: "Pictures - DeathAndMilk",
@@ -146,14 +134,6 @@ export const links: linkGroup[] = [
       {
         label: "Wave Animation - mburakerman",
         value: "https://codepen.io/mburakerman/pen/eRZZEv",
-      },
-      {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-      },
-      {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
       },
     ],
   },
