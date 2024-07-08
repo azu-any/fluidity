@@ -95,24 +95,25 @@ Error generating stack: `+i.message+`
   
   lh=[
       {
-        title:"Reddit",
-        links:[
+        title: "Tools",
+        links: [
           {
-            label:"r/startpages",
-            value:"https://www.reddit.com/r/startpages/"
-          },
-          { 
-            label:"r/unixporn",
-            value:"https://www.reddit.com/r/unixporn/"},
-          {
-            label:"r/rainmeter",
-            value:"https://www.reddit.com/r/rainmeter/"
+            label: "YouTube",
+            value: "https://www.youtube.com/",
           },
           {
-            label:"r/AnimalsBeingDerps",
-            value:"https://www.reddit.com/r/AnimalsBeingDerps/"
-          }
-        ]
+            label: "Reverso",
+            value: "https://context.reverso.net/traduccion/",
+          },
+          {
+            label: "Google Drive",
+            value: "https://drive.google.com/drive/my-drive",
+          },
+          {
+            label: "GMail",
+            value: "https://mail.google.com/mail/u/0/#inbox",
+          },
+        ],
       },
     {
       title:"3D Modelling",
@@ -165,13 +166,17 @@ Error generating stack: `+i.message+`
       ]
     },
     {
-      title:"Music",
-      links:[
-        {label:"Lovers Rock",value:"https://youtu.be/j_sG_Juncn8?si=YHzagbNt2-raNZyK"},
-        {label:"let the bodies hit the floor",value:"https://www.youtube.com/watch?v=b--VKaCB9u0"},
-        {label:"Nobody Kanna Cross It",value:"https://www.youtube.com/watch?v=2wqTnwJGvtc"},
-        {label:"Smug Dancin",value:"https://www.youtube.com/watch?v=eNZ9Od1jQ4Q"},
-        {label:"Utamaru - The Sanctified Mind Cover",value:"https://www.youtube.com/watch?v=MHlJKLlS07U"}]},
+      title: "Playlists",
+      links: [
+        {
+          label: "80s Japanese City pop",
+          value: "https://youtu.be/rjwqxhg5-BY?si=yZz_tvSMBH_KlFpw",
+        },
+        {
+          label: "Ghibli :3",
+          value: "https://www.youtube.com/live/_u36muyjh8A?si=OFc4MCeln9H3TUZ7",
+        },
+      ],
     {
       title:"Sauce",
       links:[
